@@ -1,0 +1,181 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navigation Bar */
+nav{
+    display: flex;
+    height: 7vh;
+    background-color: #f4f3f3;
+    flex-direction: row;
+
+}
+nav div{
+    display: flex;
+    flex:50%;
+    align-items: center;
+}
+
+.header-left{
+    padding-left: 90px;
+}
+.header-right{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 90px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin-left: 40px;
+}
+nav ul li{
+    display: inline;
+    margin-left: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul .home{
+    font-weight: 700;
+    color:#ec4d37;
+}
+
+nav .header-right a{
+    font-size: 15px ;
+    background-color: #ec4d37;
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+/* Personal container */
+
+.personal{
+    display: flex;
+    height: 93vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal .container{
+    display: flex;
+    width: 80%;
+}
+
+/* Left container Card Container */
+.personal .container .left-container{
+    display: flex;
+    flex: 40%;
+}
+.card{
+    width: 450px;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: left;
+    box-shadow: 0px 0px 8px rgba(36, 35, 35, 0.363);
+}
+
+.card .image img{
+    width:100%; 
+    border-radius: 15px;
+}
+
+.card .header h1{
+    text-align: left;
+    margin: 10px 0;
+}
+
+.card .content p{
+    text-align: left;
+    color: rgb(0, 128, 0);
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+.card .content table{
+    border: 2px solid rgb(216, 209, 209);
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+tr, th{
+    font-weight: 600;
+    padding: 5px;
+}
+
+td{
+    font-weight: 400;
+    padding: 5px;
+}
+
+/* Right Container */
+
+/* top content */
+.personal .container .right-container{
+    display: flex;
+    flex: 60%;
+}
+
+.personal .content-container p{
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.personal .content-container .top-content p{
+    text-align: justify;
+    text-indent: 3ch;
+}
+
+.personal .content-container .skill-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.skill-container, .skill-container p{
+    margin-top: 20px;
+}
+
+.skill-container .skill h3{
+    font-size: 18px;
+    font-weight: 700;
+} 
+.skill-container .skill{
+    margin-right: 20px;
+}
+
+/* bottom content */
+.personal .content-container .bottom-content{
+    margin-top: 15px;
+}
+
+.personal .content-container .bottom-content .icon-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.btn{
+    /* max-width: 50px; */
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+.btn:hover{
+    color:white;
+    background-color: rgb(87, 85, 85);
+    border: 1px solid rgb(87, 85, 85);
+}
+
+.twitter , .mail{
+    padding: 10px 13px;
+    /* margin: 0 1px; */
+}

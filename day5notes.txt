@@ -1,0 +1,29 @@
+onsubmit = trigger baru
+agar melakukan reload page
+
+preventDefault() : 
+????????
+
+apa itu blob?
+tempat nyimpen image???
+
+inner html : sebuah kode untuk menambahkan kode html ke dalam html buatan pake javascript
+cth: 
+ let test = document.getElementById('test')
+    test.innerHTML += "<p style='color:red;'>HELLO BATCH 12</p> "
+
+
+innerText = naruh tulisan di html
+innerHtml = buat naruh kode tambahan
+
+sifatnya kalo udah ditambah, nanti bisa nambah lagi
+
+method push: menambahkan data ke index terakhir
+
+dengerin lagi recordnya, tentang tipe data primitive dan non primitve, knp ada bedanya kalo penggunaan cons
+
+cara manggil salah 1 di array:
+blogs[0].content
+
+biar tinggal ngerender yg terakhir aja /logic mas hanafy/ /mastah koding
+if(i+1 == blogs.length){}

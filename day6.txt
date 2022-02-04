@@ -1,0 +1,12 @@
+getMonth() itu selalu dari index ke 0. jadi 0-11
+
+
+kenapa di return
+biar bisa langsung di panggil
+
+
+pembulatan ke atas pake Math.ceil(4.3) => 5
+pembulatan ke bawah pake Math.floor(4.3) => 4
+
+setInterval mirip2 perulangan, bisa mengeksekusi / merefresh data scr langsung
+tapi bisa dikasi batasan waktu

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form - B31</title>
+    <link rel="stylesheet" href="stylecontact.css">
+    
+</head>
+
+<body>
+    <nav>
+        <div class="header-left">
+            <a href="index.html">
+                <img src="assets/logo.png">
+            </a>
+            <ul>
+                <li class="home"><a href="index.html">Home</a></li>
+                <li><a href="index2.html">My Project</a></li>
+            </ul>
+        </div>
+        <div class="header-right">
+            <a href="contact.html">Contact Me</a>
+        </div>
+    </nav>
+
+    <!-- <center> -->
+    <div class="container">
+        <div class="container-content">
+            <div class="header">
+                <h1>GET IN TOUCH</h1>
+            </div>
+            <form action="">
+                <div class="labels">
+                    <label for="name">Name</label>
+                    <input type="text" id="input-name" required/>
+                    <!-- input type bisa readonly, required, placeholder. coba sendiri -->
+                </div>
+    
+                <div class="labels">
+                    <label for="email">Email</label>
+                    <input type="email" id="input-email" required/>
+                </div>
+    
+                <div class="labels">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" id="input-phone" pattern="[0-9]" required/>
+                </div>
+                
+                <div class="labels">
+                    <label for="subject">Subject</label>
+                    <select id="input-subject" required>
+                        <option selected disabled value="">-Choose Subject-</option>
+                        <option value="Let's Talk">Let's Talk</option>
+                        <option value="Let's Collaboration" >Let's Collaboration</option>
+                        <option value="I Am Hiring" >I Am Hiring</option>
+                        <!-- option bisa disabled, selected -->
+                    </select>
+                </div>
+    
+                <div class="labels">
+                    <label for="message">Your Message</label>
+                    <textarea id="input-message" required></textarea>
+                </div>
+
+                <div class="submit">
+                    <!-- <a href="mailto:oneoryuga@gmail.com?subject=haibestie&body=yowbestie pakabar cuy"></a> -->
+                    <button type="button" onclick="showData()">Submit</button>
+                </div>
+                
+            </form>
+
+        </div>
+    </div>
+    <!-- </center>    -->
+
+    <script src="form.js"></script>
+    <!-- <script src="belajar.js"></script> -->
+</body>
+</html>
+
